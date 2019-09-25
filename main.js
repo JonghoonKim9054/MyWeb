@@ -21,7 +21,8 @@ $(document).ready(function(){
     text.justification = 'center';
     text.fillColor = 'white';
     text.fontSize = 20;
-    text.center = 'Hello, World!!';
+    // text.center = 'Hello, World!!';
+    text.content = 'Hello, World!!';
 
     tool.onMouseDown = function(event){
 
