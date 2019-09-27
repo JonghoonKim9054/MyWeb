@@ -8,7 +8,8 @@
 
         input[type="text"]{background:red;}
         input[type="password"]{background: blue;}
-        #header > h1{color: red;}
+        #header > h1{color: red;} /*바로 밑 자식에게만 적용, 자식 선택자*/
+        /* #header h1{color: red;} 후손 전체에 적용, 후손 선택자 */
         #section > h1{color: blue;}
     </style>
 
@@ -34,6 +35,23 @@
     <div id="section">
         <h1 class = "title">Title</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting inddustry</p>
+    </div>
+    <hr>
+
+    <div>
+        <table border="1">
+            <tr>
+                <th>이름</th>
+                <th>지역</th>
+            </tr>
+            <tr>
+                <td>홍길동</td>
+                <td>서울시</td>
+            </tr>
+           
+        </table>
+
+
     </div>
 
 </body>
