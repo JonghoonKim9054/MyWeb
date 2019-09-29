@@ -14,39 +14,80 @@
             background-size: 100% 100%;
         }
 
+        .bg_smallInfo{
+            color: white;
+            font-size: 28px;
+            text-align: center;
+            position: relative;
+        
+        }
+
         .myInformation{
             border: 1px solid none;
             position:relative;
-            width: 40%;
+            width: 750px;
             height: 40%;
             left: 600px;
             top:300px;
         }
         h2{
             background-color: white;
-            color: dodgerblue;
+            color: navy;
             margin: 0;
             
         }
 
         #profile{
             border: 1px solid none;
-            float: right;
+            float: left;
             background-color: white;
             margin: 0;
             padding: 0;
             width: 450px;
             height: 400px;
-            color: dodgerblue;
+            color: navy;
             font-weight: bold;
             font-size: 18px;
 
         }
+        
+        hr{
+            border-color: navy;
+        }
+
+        .link{
+            border: 1px solid none;
+            background-color: navy;
+            position: absolute;
+            width: 750px;
+            height: 50px;
+            left: 600px;
+            top:795px;
+           
+
+        }
+
+        .link > p > a{
+            color:white;
+            float: left;
+            padding-left: 140px;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
     
+        }
+
+        #portpolio:hover{color: navajowhite}
+        #blockchain:hover{color: navajowhite}
     </style>
 
 </head>
 <body>
+
+    <div class="bg_smallInfo">
+            <p><블록체인에 관심이 많은 개발자 지망생의 개인페이지 입니다></p>
+    </div>
+
     <div class="myInformation">
 
             <h2>Profile</h2>
@@ -61,6 +102,10 @@
                  </p> 
     </div>
 
+    <div class="link">
+        <p><a id="portpolio" href="portpolio.html">My Portpolio</a></p>
+        <p><a  id="blockchain" href="currentstudying.html">What is BlockChain?</a></p>
+    </div>
 
 
     
